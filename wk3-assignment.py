@@ -7,11 +7,11 @@ def calculate_discount(price, discount_percent):
         return price
 
 2.
-Prompt user for inputs
+#Prompt user for inputs
 price = float(input("Enter the original price: "))
 discount = float(input("Enter the discount percentage: "))
 
-Call the function
+#Call the function
 final_price = calculate_discount(price, discount)
 
 Output the result
